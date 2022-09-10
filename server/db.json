@@ -1,0 +1,272 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "rating": 3,
+      "date": "2022-09-03",
+      "publisher": "John Doe",
+      "car": "Audi A4",
+      "body": "some comment",
+      "mechanicId": 1
+    },
+    {
+      "id": 2,
+      "rating": 2,
+      "date": "2022-09-03",
+      "publisher": "Mario Perez",
+      "car": "BMW X5",
+      "body": "some comment",
+      "mechanicId": 2
+    },
+    {
+      "id": 3,
+      "rating": 1,
+      "date": "2022-09-03",
+      "publisher": "George Brown",
+      "car": "Honda Civic",
+      "body": "some comment",
+      "mechanicId": 3
+    },
+    {
+      "rating": 3,
+      "body": "comentario en id 1 con 3 estrellas",
+      "car": "car test",
+      "publisher": "James Bond",
+      "date": "date test",
+      "mechanicId": 1,
+      "id": 4
+    },
+    {
+      "rating": 3,
+      "body": "a",
+      "car": "car test",
+      "publisher": "name test",
+      "date": "date test",
+      "mechanicId": 2,
+      "id": 5
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "drivers": [
+    {
+      "id": 10,
+      "name": "Ron Weasley"
+    },
+    {
+      "id": 11,
+      "name": "Arthur Weasley"
+    }
+  ],
+  "mechanics": [
+    {
+      "id": 1,
+      "name": "Fast Car",
+      "phone": "123456789",
+      "description": "This is a family-owned and operated business that has been proudly serving the community since 1999.  These repairs can range from minor and major mechanical repairs, to tires and wheel alignment, to check engine light diagnosis and repairs, to state safety inspections, as well as your scheduled maintenance needs.",
+      "location": "San Borja",
+      "image": "https://images.unsplash.com/photo-1588993986550-6ae221c7146e?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&auto=format&fit=crop&w=460",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Formula 1",
+      "phone": "123456789",
+      "description": "Formula 1 was established in 2011 and has been providing Ridgewood and the surrounding area with quality automotive repairs ever since. This work is backed by a 12-month / 12,000-mile warranty for your peace of mind. Our survey of their recent customers revealed a group who describe the team here as “honest”, “reliable”, “friendly”, “honest”, and “helpful”.  ",
+      "location": "Surco",
+      "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=460&h=307"
+    },
+    {
+      "id": 3,
+      "name": "Blue Star Brothers",
+      "phone": "123456789",
+      "description": "This shop features a team of very experienced, highly trained technicians who are equipped with the tools and equipment necessary to perform a wide range of repairs. A local shuttle service, early bird drop off, Saturday business hours, and a waiting area with wireless Internet are also available for your convenience. ",
+      "location": "La Molina",
+      "image": "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?ixlib=rb-1.2.1&&auto=format&fit=crop&w=460&h=307"
+    },
+    {
+      "id": 4,
+      "name": "Manhattan Auto Service & Bodywork",
+      "phone": "123456789",
+      "description": "This shop features a team of very experienced, highly trained technicians who are equipped with the tools and equipment necessary to perform a wide range of repairs. Manhattan Auto Service & Bodywork is a full-service shop, which means they can perform all major repairs and scheduled maintenance. ",
+      "location": "San Borja",
+      "image": "https://images.unsplash.com/photo-1579103769354-8796259d8d54?ixlib=rb-1.2.18&auto=format&fit=crop&w=460&h=307"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "customer": "Ron Weasley",
+      "mechanic": "Fast Car",
+      "date": "2022-09-03",
+      "time": "09:00",
+      "finished": true
+    },
+    {
+      "id": 2,
+      "customer": "Ron Weasley",
+      "mechanic": "Formula I",
+      "date": "2015-09-10",
+      "time": "17:00",
+      "finished": true
+    },
+    {
+      "id": 3,
+      "customer": "Ron Weasley",
+      "mechanic": "Fix it Up",
+      "date": "2015-09-14",
+      "time": "16:00",
+      "finished": false
+    },
+    {
+      "id": 4,
+      "customer": "Thomas Edison",
+      "mechanic": "Fix it Up",
+      "date": "2015-09-17",
+      "time": "12:00",
+      "finished": false
+    },
+    {
+      "id": 5,
+      "customer": "James Watson",
+      "mechanic": "Formula I",
+      "date": "2015-09-18",
+      "time": "13:00",
+      "finished": false
+    },
+    {
+      "id": 5,
+      "customer": "Jim Moriarty",
+      "mechanic": "Fast Car",
+      "date": "2015-09-12",
+      "time": "14:00",
+      "finished": true
+    },
+    {
+      "date": "2022-05-24T05:00:00.000Z",
+      "time": "08:00",
+      "mechanic": "Manhattan Auto Service & Bodywork",
+      "id": 6
+    },
+    {
+      "date": "2022-06-28T05:00:00.000Z",
+      "time": {
+        "time": "12:00 PM",
+        "value": "12:00"
+      },
+      "id": 7
+    },
+    {
+      "date": "2022-06-30T05:00:00.000Z",
+      "time": {
+        "time": "10:00 AM",
+        "value": "10:00"
+      },
+      "id": 8
+    },
+    {
+      "time": {
+        "time": "08:00 AM"
+      },
+      "date": "2022-06-30T05:00:00.000Z",
+      "id": 9
+    },
+    {
+      "date": "2022-06-29T05:00:00.000Z",
+      "time": {
+        "value": "10:00 AM"
+      },
+      "id": 10
+    },
+    {
+      "date": "2022-06-28T05:00:00.000Z",
+      "time": {
+        "time": "10:00 AM",
+        "value": "10:00"
+      },
+      "id": 11
+    },
+    {
+      "date": "2022-08-24T05:00:00.000Z",
+      "time": "08:00",
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "email": "john.doe@gmail.com",
+      "password": "$2a$10$ZIBqyYiL0iVNbHuX/9b7jeiEFxZYbfLNqw4g/yk76/WqkUtNoS1h2",
+      "role": "customer",
+      "id": 1
+    },
+    {
+      "email": "renzo@gmail.com",
+      "password": "$2a$10$NqO1hJeRZt5VDYnBgIeU3OS5CeUKIpHBc4e7nlorQHcW/GN3H0RYm",
+      "id": 2
+    },
+    {
+      "email": "jaja@gmail.com",
+      "password": "$2a$10$LlLNARl4vJfXeOliYyWoDe6882hKb07d8kyqIdIjCDColZ0PQHjmq",
+      "name": "jaja",
+      "id": 3
+    },
+    {
+      "email": "mario@bros.com",
+      "password": "$2a$10$P/40jJr3qQ2j2LONnuqwcOssaNivDKIGM0ZIyxPWx9wApQfnoBX8m",
+      "name": "mario",
+      "id": 4
+    },
+    {
+      "email": "hahaha@gmail.com",
+      "password": "$2a$10$w6QZjmDdtFaEocOhsbkcLeWF90PgoeWDgj8UFFKKvnepIlEfjMxvO",
+      "name": "hahaha",
+      "id": 5
+    },
+    {
+      "email": "no@si.com",
+      "password": "$2a$10$zCnEfl1M2HAeIVzI.B3KDuSZqi24VFTwQcVXHX/fyjfFgOErURbnO",
+      "name": "xdxdxd",
+      "id": 6
+    },
+    {
+      "email": "huhuhu@huhuh.com",
+      "password": "$2a$10$B9Vu3HgSbJg0DSyODGpyyO/l8AEFZTA8ewqMq4P7H1zcSibhrWm0m",
+      "name": "huhuu",
+      "id": 7
+    },
+    {
+      "email": "pedro@gmail.com",
+      "password": "$2a$10$eee44qVRtDsCndZ5kzAtr.2CpkwlFp/Y6pt.mxNgBe3ns26a/pg3y",
+      "name": "pedro",
+      "id": 8
+    },
+    {
+      "email": "renadfajsdk@gmail.com",
+      "password": "$2a$10$IChjFfiDXNok5P5ri88ti.G1icuF52Q4cdt2devPcPk5hsHRwonYa",
+      "name": "asdkfkasdf",
+      "id": 9
+    },
+    {
+      "email": "jesus@amen.com",
+      "password": "$2a$10$f10K9/cU8dx3ym1Bfa.sfOxSEFYcGaXTCuTJq5cKybkDGs9y/7/tm",
+      "name": "jesus de nazareth",
+      "role": "mechanic",
+      "id": 10
+    },
+    {
+      "email": "idk@gmail.com",
+      "password": "$2a$10$HAlltE4UVIh8nuUZAi1wsuFopSK/NAGLDT/Kt0QewVF1RufJ2QD1C",
+      "name": "idk",
+      "role": "mechanic",
+      "id": 11
+    }
+  ]
+}

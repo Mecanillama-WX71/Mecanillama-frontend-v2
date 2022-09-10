@@ -1,0 +1,7 @@
+{
+    "/api/v1/*": "/$1",
+    "/auth/*": "/$1",
+    "/reviews/:mechanicId": "/reviews?mechanicId=:mechanicId",
+    "/sign-in": "/signin",
+    "/sign-up": "/signup"
+}
