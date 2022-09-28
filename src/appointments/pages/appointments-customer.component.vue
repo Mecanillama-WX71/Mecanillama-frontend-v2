@@ -94,6 +94,7 @@ export default {
     created(){
         this.appointmentsService = new AppointmentsApiService();
         this.appointmentsService.getAll().then(response =>{
+            console.log(response.data);
             this.appointments = response.data;
             this.appointments.forEach(appointment => this.getDisplayableAppointment(appointment));
         });

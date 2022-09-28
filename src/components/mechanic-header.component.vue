@@ -43,7 +43,7 @@ export default{
             accountMenu: [{
                 items: [
                     { label: "Profile", to: "/customer-profile", icon: 'pi pi-fw pi-user'},
-                    { label: "Sign out", to: "/", icon: 'pi pi-fw pi-sign-out' },
+                    { label: "Sign out", to: "/home", icon: 'pi pi-fw pi-sign-out' },
                 ]
             }
             ]
