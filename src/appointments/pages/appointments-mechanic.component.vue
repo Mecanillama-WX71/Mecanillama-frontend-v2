@@ -68,6 +68,8 @@
 <script>
 
 import { AppointmentsApiService } from "../services/appointments.service"
+import { MechanicApiService } from "../../mechanic/services/mechanics-api.service"
+import { CustomerApiService } from "../../customer/services/customers.service"
 import { FilterMatchMode } from "primevue/api";
 import mechanicHeaderComponent from '../../components/mechanic-header.component.vue';
 
