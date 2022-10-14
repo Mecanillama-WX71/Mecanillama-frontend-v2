@@ -1,11 +1,11 @@
 import axios from "axios";
 import http from "../../core/services/http-common";
 
-const API_URL = "https://localhost:7056/api/v1/users";
-const API_URL_SIGNUP = "https://localhost:7056/api/v1/users/sign-up";
-const API_URL_SIGNIN = "https://localhost:7056/api/v1/users/sign-in";
-const API_URL_ADD_CUSTOMER = "https://localhost:7056/api/v1/customers";
-const API_URL_ADD_MECHANIC = "https://localhost:7056/api/v1/mechanics";
+const API_URL = "https://wx71-mecanillama.azurewebsites.net/api/v1/users";
+const API_URL_SIGNUP = "https://wx71-mecanillama.azurewebsites.net/api/v1/users/sign-up";
+const API_URL_SIGNIN = "https://wx71-mecanillama.azurewebsites.net/api/v1/users/sign-in";
+const API_URL_ADD_CUSTOMER = "https://wx71-mecanillama.azurewebsites.net/api/v1/customers";
+const API_URL_ADD_MECHANIC = "https://wx71-mecanillama.azurewebsites.net/api/v1/mechanics";
 // todo agregar url para customer y mechanic
 
 class AuthService {
